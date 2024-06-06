@@ -11,7 +11,7 @@ function App() {
   };
 
   const handleClick = () => {
-    if (password === "vibes") {
+    if (password.toLowerCase() === "vibes") {
       alert("Vírus copia zap instalado com sucesso");
       alert("Brincadeira amor, pode seguir que ta tranquilo");
       setClicked(true);

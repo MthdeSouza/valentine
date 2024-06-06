@@ -26,16 +26,19 @@ function App() {
             Rairai esse site precisa confirmar que é você, onde a gente se
             conheceu?
           </h3>
-
-          <div className="Form">
-            <label htmlFor="password">Onde?</label>
-            <input
-              id="password"
-              value={password}
-              onChange={handlePasswordChange}
-            />
-            <button onClick={(e) => handleClick(e)}>Validar</button>
-          </div>
+          <form>
+            <div className="Form">
+              <label htmlFor="password">Onde?</label>
+              <input
+                id="password"
+                value={password}
+                onChange={handlePasswordChange}
+              />
+              <button onClick={(e) => handleClick(e)} type="submit">
+                Validar
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

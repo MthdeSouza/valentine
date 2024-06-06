@@ -49,8 +49,8 @@ function App() {
         <div className="Container">
           <img src={love} alt="meu morzao" />
           <h4>
-            Por ter motivo você acaba de ganhar de presente de dia dos namorado
-            a bagatela de R$ 500,00 em tatuagem
+            Por ter motivo você acaba de ganhar de presente de aniversario a
+            bagatela de R$ 500,00 em tatuagem
           </h4>
         </div>
       </div>
